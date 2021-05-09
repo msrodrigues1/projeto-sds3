@@ -8,14 +8,14 @@ public class SaleSumDTO implements Serializable  {
 
 	private static final long serialVersionUID = 1L;
 	private String sellerName;
-	private Double sumDouble;
+	private Double sum;
 	
 	public SaleSumDTO() {
 	}
 	
-	public SaleSumDTO(Seller seller, Double sumDouble) {
+	public SaleSumDTO(Seller seller, Double sum) {
 		sellerName = seller.getName();
-		this.sumDouble = sumDouble;
+		this.sum = sum;
 	}
 	public String getSellerName() {
 		return sellerName;
@@ -23,10 +23,10 @@ public class SaleSumDTO implements Serializable  {
 	public void setSellerName(String sellerName) {
 		this.sellerName = sellerName;
 	}
-	public Double getSumDouble() {
-		return sumDouble;
+	public Double getSum() {
+		return sum;
 	}
-	public void setSumDouble(Double sumDouble) {
-		this.sumDouble = sumDouble;
+	public void setSum(Double sum) {
+		this.sum = sum;
 	}
 }
