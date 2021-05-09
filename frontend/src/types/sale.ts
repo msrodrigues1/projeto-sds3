@@ -16,9 +16,9 @@ export type SalePage = {
     totalElements:      number;
     first:              boolean;
     number:             number;
-    numberOfElements?:   number;
-    size?:               number;
-    empty?:              boolean;
+    numberOfElements?:  number;
+    size?:              number;
+    empty?:             boolean;
 }
 
 export type SaleSum = {
